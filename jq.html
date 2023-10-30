@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<form>
+    
+    
+    
+    <input type = "text" id="inputName" name="Name" class="name1" placeholder="Enter Your Name ">
+
+    <input type = "number" id="inputNum" name="inputNum" class="num1" placeholder="Enter Your Number ">
+
+    <select name ="subject" id="sub">
+        <option value="1">Math</option>
+        <option value="2">English </option>
+        <option value="3">Science</option>
+        <option value="4">Physics</option>
+
+        
+    </select>
+
+    <input type="submit" value="submit" onclick="myFormValidation()">
+
+
+
+    
+
+
+</form>
+
+<script>
+
+    function myFormValidation(){
+       
+    
+    var name = $('#inputName').val();
+    var num= $('#inputNum').val();
+
+    alert(name + num);
+    
+var num= $('#inputNum').val();
+
+var subjects = $('#sub').val();
+    }
+</script>
+
+</body>
+</html>
